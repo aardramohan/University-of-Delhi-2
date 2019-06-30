@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <style>
+	   h2{
+	      border:3px solid blue;
+		  padding:50px;
+		  margin:0px;
+	   }
+	   p{
+	      border:3px dashed red;
+		  padding:40px;
+		  margin-top:0px;
+		  margin-bottom:0px;
+		  margin-left:0px;
+		  margin-right:0px;
+	   }
+	   #head{
+	          background-color:yellow;
+			  position:absolute;
+			  top:10px;
+			  left:400px;
+	   }
+	   #para{
+	          background-color:pink;
+			  position:absolute;
+			  top:300px;
+			  left:100px;
+			  right:100px;
+	   }
+	   #adv{
+	         background-color:pink;
+			 position:absolute;
+			 top:450px;
+			 right:10px;
+			 left:900px;
+	   }
+	   #foot{
+	         background-color:grey;
+			 position:absolute;
+			 top:750px;
+			 right:10px;
+			 left:10px;
+	   }
+	   #img{
+	         position:absolute;
+			 top:450px;
+			 left:100px;
+	   }
+	   #pic{
+	         position:absolute;
+			 top:590px;
+			 right:10px;
+			 left:900px;
+	   }
+	 </style>
+   </head>
+   <body>
+      <header>
+	   <img src="logo.jpg" height="200px" width="200px" alt="LOGO"/>
+	   <nav>
+	    <ul>
+		  <li><a href="#">Home</a></li>
+		  <li><a href="#">About Us</a></li>
+		  <li><a href="#">Contact Us</a></li>
+		</ul>
+	   </nav>
+	  </header>
+	  <section>
+	    <article>
+		<div id="head">
+		 <hgroup>
+		   <h2>UNIVERSITY OF DELHI</h2>
+		   <h4>by Aardra Mohan</h4>
+		 </hgroup>
+		 </div>
+		 <div id="para">
+		 <p>          ADMISSION 2019;;
+		    Online Registration to different courses started;
+			Last date to apply for UG admission: 22nd June;
+			Last date to apply for PG entrance exam: 15th June;
+			M.Phil/PhD online registration closed.
+		 </p>
+		 </div>
+		 <div id="img">
+		 <img src="image.jpg" height="300px" width="350px" alt="Article Image"/>
+		 <img src="pic.jpg" height="300px" width="350px" alt="Article Image"/>
+		 </div>
+		</article>
+	  </section>
+	  <aside>
+	  <div id="adv">
+	    <p>JOB OPPORTUNITIES AND PLACEMENTS IN DU</p>
+	   </div>
+	   <div id="pic">
+		<img src="place.jpg" height="150px" width="150px" alt="Advertisement"/>
+		<img src="place 2.jpg" height="150px" width="150 px" alt="Advertisement"/>
+	   </div>
+	  </aside>
+	  <footer>
+	  <div id="foot">
+	    <p>Copyright &copy; University Of Delhi</p>
+		</div>
+	  </footer>
+   </body>
+</html>
+   
